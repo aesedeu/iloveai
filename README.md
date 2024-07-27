@@ -89,3 +89,4 @@ Retrieves a slice of the specified image from the database based on depth parame
 5. I had a great desire to add WEB-Interface something like Gradio or Streamlit. But of course it will take some more time
 6. I also didn't use multistage build in this project to reduce image size
 7. To increase response speed it's better to use cache service like Redis and temporary store images in it instead of making new requests to DB every time
+8. In `sandbox.ipynb` you may find some raw code I wrote while I was doing this task
