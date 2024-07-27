@@ -90,3 +90,8 @@ Retrieves a slice of the specified image from the database based on depth parame
 6. I also didn't use multistage build in this project to reduce image size
 7. To increase response speed it's better to use cache service like Redis and temporary store images in it instead of making new requests to DB every time
 8. In `sandbox.ipynb` you may find some raw code I wrote while I was doing this task
+9. I didn't hide any environmental variables and passwords for postgres. In real projects of course this is a very private and secure information.
+
+If my task matches your expectations I'm ready to discuss each line of code which I wrote here.
+
+**<center>Thanks for your time! :)**

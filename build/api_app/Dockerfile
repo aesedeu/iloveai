@@ -23,7 +23,6 @@ COPY . .
 
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-# Minimize image size 
 RUN (apt-get autoremove -y; \
     apt-get autoclean -y)
 
