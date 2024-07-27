@@ -86,3 +86,6 @@ Retrieves a slice of the specified image from the database based on depth parame
 2. Minimal tests I wrote just to check api endpoints
 3. In the task nothing were said regarding CI/CD pipelines so it's haven't been done
 4. Docstrings written not very detailed. Just for example (but I write them everytime detailed as much as possible)
+5. I had a great desire to add WEB-Interface something like Gradio or Streamlit. But of course it will take some more time
+6. I also didn't use multistage build in this project to reduce image size
+7. To increase response speed it's better to use cache service like Redis and temporary store images in it instead of making new requests to DB every time
