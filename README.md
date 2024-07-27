@@ -81,16 +81,20 @@ Retrieves a slice of the specified image from the database based on depth parame
 
 
 # Additional info for the reviwer(s)
+This solutions is mostly like MVP and of course there necessary to make much more before the real deployment.
+
+The great feature would be to add an opportunity to upload files to db. I added functionality to get list of available "images" in db.
 
 1. autopep8 and pylint were used to check code quality
-2. Minimal tests I wrote just to check api endpoints
+2. Minimal tests I wrote just to check api endpoints. In real practice write pytests for DB must be required. Also some load tests would be nice to add.
 3. In the task nothing were said regarding CI/CD pipelines so it's haven't been done
 4. Docstrings written not very detailed. Just for example (but I write them everytime detailed as much as possible)
 5. I had a great desire to add WEB-Interface something like Gradio or Streamlit. But of course it will take some more time
 6. I also didn't use multistage build in this project to reduce image size
 7. To increase response speed it's better to use cache service like Redis and temporary store images in it instead of making new requests to DB every time
 8. In `sandbox.ipynb` you may find some raw code I wrote while I was doing this task
-9. I didn't hide any environmental variables and passwords for postgres. In real projects of course this is a very private and secure information.
+9. I didn't hide any environmental variables and passwords for postgres. In real projects of course this is a very private and secure information
+10. The best practice would be to add proxy load balancer like Nginx especially If we have multiple containers with different purposes
 
 If my task matches your expectations I'm ready to discuss each line of code which I wrote here.
 
