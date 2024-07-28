@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+build/api_app/__pycache__
 .DS_Store
 .Python
 build/
