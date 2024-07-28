@@ -94,7 +94,7 @@ The great feature would be to add an opportunity to upload files to db. I added 
 7. To increase response speed it's better to use cache service like Redis and temporary store images in it instead of making new requests to DB every time
 8. In `sandbox.ipynb` you may find some raw code I wrote while I was doing this task
 9. I didn't hide any environmental variables and passwords for postgres. In real projects of course this is a very private and secure information
-10. The best practice would be to add proxy load balancer like Nginx especially If we have multiple containers with different purposes
+10. The best practice would be to add proxy load balancer like Nginx especially If we have multiple containers with different purposes. Also SSL certificates didn't aply for HTTPS connection.
 
 If my task matches your expectations I'm ready to discuss each line of code which I wrote here.
 
