@@ -52,7 +52,7 @@ Retrieves a list of available images in the database.
     {
         "list_available_images": [
             "example_image_5460_150",
-            "open_innovation_image_42_42"
+            "some_new_image_42_42"
         ]
     }
     ```
